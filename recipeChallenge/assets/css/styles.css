@@ -1,0 +1,75 @@
+/*reseteo de estilos*/
+*,
+*::before,
+*::after{
+    margin:0
+}
+body{
+    margin-left: 11px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 323px;
+    height: 29px;
+    margin: 32px 41px 12px 0px;
+
+}
+/*convierto la imagen y el parrafo en flex para que queden en linea*/
+#parrafo{
+    display: flex;
+    align-items: flex-start;
+    gap:12px
+}
+#parrafo p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14.63px;
+    width: 320px;
+    height: 88px;
+}
+#cake{
+    padding-top: 11.83px;
+    width: 352px;
+    height: 213.83px;
+}
+#cake img{
+    width: 100%;
+    border-radius: 12px;
+}
+.details{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 20.75px;
+}
+.icon{
+    width: 13.54px;
+    height: 12.57px;
+}
+#fork,#servings{
+    color:#f2994a
+}
+.description :nth-child(1){
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 10px;
+    color:#BDBDBD
+}
+.description :nth-child(2){
+    font-family: Montserrat;
+    font-weight: medium;
+    font-size: 10px;
+    line-height: 12px;
+    color:#333333;
+}
+.times{
+    margin-right: 42.29px;
+    display: flex;
+    justify-content: space-between;
+}
